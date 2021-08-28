@@ -325,6 +325,6 @@ Cuando tenga la dirección IP de su servidor, introdúzcala en la barra de direc
 ```txt
      http://your_server_ip
 ```
-<img src="./IMGS/1.png" width="400" height="auto">
-<img src="./IMGS/1.png" width="400" height="auto">
-<img src="./IMGS/1.png" width="400" height="auto">
+<img src="./IMGS/12.png" width="400" height="auto">
+<img src="./IMGS/13.png" width="400" height="auto">
+<img src="./IMGS/14.png" width="400" height="auto">
