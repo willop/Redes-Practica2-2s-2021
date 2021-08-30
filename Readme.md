@@ -58,19 +58,22 @@ Importar una maquina vpc y una maquina Virtual para el departamento de Informati
 
 * Configuracion del Switch 
   * Iniciar y abrir la consola del switch 
-  * Ejecutar cada una de los siguientes comandos
+  * Utilizando la interfaz del switch se configuran los puertos de la siguiente manera
 ```txt
-    configure terminal
+    Puerto 0: 
+        Modo: acces
+        Vlan: 20
+        
+    Puerto 1: 
+        Modo: acces
+        Vlan: 30
+        
+   
+    Puerto 2: 
+        Modo: trunk
+        Vlan: 1
 ```
-```txt
-    configure terminal
-```
-```txt
-    configure terminal
-```
-```txt
-    configure terminal
-```
+
 
 <img src="./IMGS/8.png" width="400" height="auto">
 
@@ -116,20 +119,21 @@ Importar una maquina vpc y una maquina Virtual para el departamento de Informati
 
 * Configuracion del Switch 
   * Iniciar y abrir la consola del switch 
-  * Ejecutar cada una de los siguientes comandos
+  * Utilizando la interfaz del switch se configuran los puertos de la siguiente manera
 ```txt
-    configure terminal
+    Puerto 0: 
+        Modo: acces
+        Vlan: 20
+        
+    Puerto 1: 
+        Modo: acces
+        Vlan: 30
+        
+   
+    Puerto 2: 
+        Modo: trunk
+        Vlan: 1
 ```
-```txt
-    configure terminal
-```
-```txt
-    configure terminal
-```
-```txt
-    configure terminal
-```
-
 
 
 <img src="./IMGS/10.png" width="400" height="auto">
@@ -178,18 +182,20 @@ Importar una maquina vpc y una maquina Virtual para el departamento de Informati
 
 * Configuracion del Switch 
   * Iniciar y abrir la consola del switch 
-  * Ejecutar cada una de los siguientes comandos
+  * Utilizando la interfaz del switch se configuran los puertos de la siguiente manera
 ```txt
-    configure terminal
-```
-```txt
-    configure terminal
-```
-```txt
-    configure terminal
-```
-```txt
-    configure terminal
+    Puerto 0: 
+        Modo: acces
+        Vlan: 20
+        
+    Puerto 1: 
+        Modo: acces
+        Vlan: 30
+        
+   
+    Puerto 2: 
+        Modo: trunk
+        Vlan: 1
 ```
 
 <img src="./IMGS/7.png" width="400" height="auto">
