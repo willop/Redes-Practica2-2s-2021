@@ -123,11 +123,11 @@ Importar una maquina vpc y una maquina Virtual para el departamento de Informati
 ```txt
     Puerto 0: 
         Modo: acces
-        Vlan: 20
+        Vlan: 30
         
     Puerto 1: 
         Modo: acces
-        Vlan: 30
+        Vlan: 20
         
    
     Puerto 2: 
@@ -186,7 +186,7 @@ Importar una maquina vpc y una maquina Virtual para el departamento de Informati
 ```txt
     Puerto 0: 
         Modo: acces
-        Vlan: 20
+        Vlan: 10
         
     Puerto 1: 
         Modo: acces
@@ -242,6 +242,27 @@ Informática y viceversa.
 ```txt
      ip                     Mascara de red           Gateway 
      192.168.38.15          255.255.255.0            192.168.38.254
+```
+
+* Configuracion del Switch 
+  * Iniciar y abrir la consola del switch 
+  * Utilizando la interfaz del switch se configuran los puertos de la siguiente manera
+```txt
+    Puerto 0: 
+        Modo: acces
+        Vlan: 10
+        
+    Puerto 1: 
+        Modo: acces
+        Vlan: 20
+        
+   Puerto 2: 
+        Modo: acces
+        Vlan: 30
+        
+    Puerto 3: 
+        Modo: trunk
+        Vlan: 1
 ```
 
 <img src="./IMGS/11.png" width="400" height="auto">
